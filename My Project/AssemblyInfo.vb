@@ -10,10 +10,10 @@ Imports System.Runtime.InteropServices
 
 <Assembly: AssemblyTitle("admintegral_interface")> 
 <Assembly: AssemblyDescription("")> 
-<Assembly: AssemblyCompany("")> 
+<Assembly: AssemblyCompany("Programacion Integral")> 
 <Assembly: AssemblyProduct("admintegral_interface")> 
-<Assembly: AssemblyCopyright("©  2009")> 
-<Assembly: AssemblyTrademark("")> 
+<Assembly: AssemblyCopyright("©  2021")> 
+<Assembly: AssemblyTrademark("Programacion Integral")> 
 
 <Assembly: ComVisible(False)>
 
@@ -31,5 +31,5 @@ Imports System.Runtime.InteropServices
 ' mediante el asterisco ('*'), como se muestra a continuación:
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("3.0.0.01")> 
+<Assembly: AssemblyVersion("4.2021.0.1")> 
 <Assembly: AssemblyFileVersion("1.0.0.0")> 

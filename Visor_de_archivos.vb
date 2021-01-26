@@ -50,9 +50,6 @@ Public Class Visor_de_archivos
         dgv.DataMember = s
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-       
-    End Sub
 
     Private Sub boton_consular_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles boton_consular.Click
         My.Forms.consultar_base.Show()

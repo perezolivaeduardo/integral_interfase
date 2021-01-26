@@ -1,4 +1,5 @@
-﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
   <PropertyGroup>
     <PublishUrlHistory>\\ABARROTERABARA\datosintegral\sistemas\Interface\|C:\Tmp\aplicarventas\|publish\|\\abarroterabara\Datosintegral\sistemas\Interface\|C:\Users\Eduardo\Visual Studio 2005\Projects\admintegral_interface\publish\</PublishUrlHistory>
     <InstallUrlHistory>\\ABARROTERABARA\datosintegral\sistemas\Interface\|\\server\Datosintegral\sistemas\Interface\|\\abarroterabara\Datosintegral\sistemas\Interface\</InstallUrlHistory>
@@ -8,7 +9,6 @@
     </UpdateUrlHistory>
     <BootstrapperUrlHistory>
     </BootstrapperUrlHistory>
-    <ApplicationRevision>28</ApplicationRevision>
     <FallbackCulture>es-ES</FallbackCulture>
     <VerifyUploadedFiles>false</VerifyUploadedFiles>
   </PropertyGroup>

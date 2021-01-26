@@ -22,16 +22,15 @@ Partial Class Visor_de_archivos
     'No lo modifique con el editor de código.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer
-        Me.boton_consular = New System.Windows.Forms.Button
-        Me.Button1 = New System.Windows.Forms.Button
-        Me.ListBox1 = New System.Windows.Forms.ListBox
-        Me.Label1 = New System.Windows.Forms.Label
-        Me.boton_abrir = New System.Windows.Forms.Button
-        Me.file = New System.Windows.Forms.TextBox
-        Me.dgv2 = New System.Windows.Forms.DataGridView
-        Me.dgv = New System.Windows.Forms.DataGridView
-        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog
+        Me.SplitContainer1 = New System.Windows.Forms.SplitContainer()
+        Me.boton_consular = New System.Windows.Forms.Button()
+        Me.ListBox1 = New System.Windows.Forms.ListBox()
+        Me.Label1 = New System.Windows.Forms.Label()
+        Me.boton_abrir = New System.Windows.Forms.Button()
+        Me.file = New System.Windows.Forms.TextBox()
+        Me.dgv2 = New System.Windows.Forms.DataGridView()
+        Me.dgv = New System.Windows.Forms.DataGridView()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.SplitContainer1.Panel1.SuspendLayout()
         Me.SplitContainer1.Panel2.SuspendLayout()
         Me.SplitContainer1.SuspendLayout()
@@ -49,7 +48,6 @@ Partial Class Visor_de_archivos
         'SplitContainer1.Panel1
         '
         Me.SplitContainer1.Panel1.Controls.Add(Me.boton_consular)
-        Me.SplitContainer1.Panel1.Controls.Add(Me.Button1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.ListBox1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.Label1)
         Me.SplitContainer1.Panel1.Controls.Add(Me.boton_abrir)
@@ -65,21 +63,12 @@ Partial Class Visor_de_archivos
         '
         'boton_consular
         '
-        Me.boton_consular.Location = New System.Drawing.Point(6, 285)
+        Me.boton_consular.Location = New System.Drawing.Point(6, 219)
         Me.boton_consular.Name = "boton_consular"
         Me.boton_consular.Size = New System.Drawing.Size(75, 23)
         Me.boton_consular.TabIndex = 2
         Me.boton_consular.Text = "consultas"
         Me.boton_consular.UseVisualStyleBackColor = True
-        '
-        'Button1
-        '
-        Me.Button1.Location = New System.Drawing.Point(6, 221)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
-        Me.Button1.TabIndex = 1
-        Me.Button1.Text = "Button1"
-        Me.Button1.UseVisualStyleBackColor = True
         '
         'ListBox1
         '
@@ -119,7 +108,7 @@ Partial Class Visor_de_archivos
         Me.dgv2.AllowUserToAddRows = False
         Me.dgv2.AllowUserToDeleteRows = False
         Me.dgv2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dgv2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgv2.Location = New System.Drawing.Point(3, 309)
         Me.dgv2.Name = "dgv2"
@@ -132,8 +121,8 @@ Partial Class Visor_de_archivos
         Me.dgv.AllowUserToAddRows = False
         Me.dgv.AllowUserToDeleteRows = False
         Me.dgv.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.dgv.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgv.Location = New System.Drawing.Point(0, 9)
         Me.dgv.Name = "dgv"
@@ -169,7 +158,6 @@ Partial Class Visor_de_archivos
     Friend WithEvents boton_abrir As System.Windows.Forms.Button
     Friend WithEvents dgv As System.Windows.Forms.DataGridView
     Friend WithEvents ListBox1 As System.Windows.Forms.ListBox
-    Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents dgv2 As System.Windows.Forms.DataGridView
     Friend WithEvents boton_consular As System.Windows.Forms.Button
 End Class
